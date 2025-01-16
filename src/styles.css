@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  background-image: url('./assets/law_images/law.jpg');
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* opacity: 0.6; /* Make the image transparent */
+  z-index: -1; /* Ensure it stays behind content */
+}
+
+.container{
+  background-color: #102c42;
+  color: #BDDAEF;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+  opacity: 0.9;
+}
+
+.navbar{
+  background-color: #fff;
+  width: 100%;
+}

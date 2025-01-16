@@ -1,0 +1,36 @@
+<header>
+  <nav class="navbar">
+      <img src="../../../assets/law_images/logo.jpg" alt="">
+      <div class="logo">
+        <a routerLink="/">LAW FIRM</a>
+      </div>
+    <div class="hamburger" (click)="toggleMenu()" [class.active]="isMenuOpen">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="nav-links" [class.active]="isMenuOpen">
+      <img src="../../../assets/icon_svg/home-svgrepo-com.svg" alt="">
+      <a routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="closeMenu()">Home</a>
+
+      <img src="../../../assets/icon_svg/course-svgrepo-com.svg" alt="">
+      <a routerLink="/courses"
+        routerLinkActive="active"
+        (click)="closeMenu()">Courses</a>
+
+      <img src="../../../assets/icon_svg/book-mark-svgrepo-com.svg" alt="">
+      <a routerLink="/about"
+        routerLinkActive="active"
+        (click)="closeMenu()">About</a>
+
+      <img src="../../../assets/icon_svg/contact-book-svgrepo-com.svg" alt="">
+      <a routerLink="/contact"
+        routerLinkActive="active"
+        (click)="closeMenu()">Contact</a>
+    </div>
+  </nav>
+</header>
+
