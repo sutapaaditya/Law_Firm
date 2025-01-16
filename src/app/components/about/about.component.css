@@ -100,3 +100,107 @@
   grid-row: 6 / span 3;
 }
 
+  /*Rest of the styles remain the same  */
+.highlight_section{
+ padding: 4rem 2rem;
+  text-align: center;
+}
+
+.highlight_section h2{
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.about_highlights{
+max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 2rem;
+}
+
+.highlight_item{
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  top: 0
+}
+
+.highlight_item:hover{
+  top: -16px;
+}
+
+.highlight_img{
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.highlight_img::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+}
+
+.highlight_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.highlight_item:hover .highlight_img img{
+ transform: scale(1.1);
+}
+
+.highlight_content{
+  padding: 2rem;
+}
+
+.highlight_content h3{
+  color: navy;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.highlight_content p{
+  color: burlywood;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1024px){
+  .about_component{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .about_left, .about_right{
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .about_image_grid{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 8vw);
+  }
+}
