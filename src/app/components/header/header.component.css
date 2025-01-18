@@ -34,20 +34,20 @@ header {
   width: 100%;
 }
 
-.logo {
+.logos {
   flex: 0 0 auto;
 }
 
 .navbar img{
-  width: 10rem;
-  height: 5.5rem;
+  width: 12rem;
+  height: 5.8rem;
 }
 
-.logo a {
+.logos a {
   font-size: 2.2rem;
   font-weight: bold;
   color: #205883;
-  margin-right: 52rem;
+  margin-right: 50rem;
 }
 
 .nav-links img{
