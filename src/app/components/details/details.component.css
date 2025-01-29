@@ -1,4 +1,33 @@
-h2{
-  font-size: 5rem;
-  color: coral;
+.details{
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.details-img{
+  flex: 1;
+  max-width: 400px;
+}
+
+.details-img img{
+   width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-info{
+  flex: 1;
+  padding: 1rem;
+}
+
+.description{
+  color: #D0CBC8;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }

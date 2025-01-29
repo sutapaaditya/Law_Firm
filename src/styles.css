@@ -10,7 +10,7 @@ html{
 
 body {
   position: relative;
-  background-image: url('./assets/law_images/law.jpg');
+  background-color: #212a31;
   top: 0;
   left: 0;
   right: 0;
@@ -23,8 +23,8 @@ body {
 }
 
 .container{
-  background-color: #102c42;
-  color: #BDDAEF;
+  background-color: #978c87;
+  color: #171514;
   width: 90%;
   margin: 0 auto;
   font-size: 2rem;
@@ -32,6 +32,6 @@ body {
 }
 
 .navbar{
-  background-color: #fff;
+  background-color: #6e645e;
   width: 100%;
 }
