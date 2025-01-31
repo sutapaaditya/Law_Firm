@@ -8,11 +8,11 @@
 
 .details-img{
   flex: 1;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .details-img img{
-   width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,10 +24,44 @@
 }
 
 .description{
-  color: #D0CBC8;
+  color: #eceae9;
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
+
+.price{
+  color: #2c2826;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.9rem;
+  border-top: 1px solid #57504c;
+  border-bottom: 1px solid #57504c;
+  width: 15%;
+  text-align: center;
+}
+
+.Order-btn{
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 1.6rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-family: Merriweather, sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+  background-color:  #37322f;
+  color: #d9d5d3;
+}
+
+li{
+  color: #f6f5f4;
+  list-style: none;
+}
+
