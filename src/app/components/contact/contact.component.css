@@ -123,8 +123,8 @@ button[type="submit"]:hover{
   transform: translateY(-3px);
 }
 
-.hr{
-  border: 1px solid white;
+.line{
+  border-top: 2px solid rgba(227, 224, 222, 0.55);
 }
 
 @media(max-width: 768px){

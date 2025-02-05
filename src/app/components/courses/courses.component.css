@@ -90,3 +90,7 @@
   width: 100%;
   margin-top: auto;
 }
+
+.line{
+  border-top: 1.5px solid rgba(227, 224, 222, 0.25);
+}
