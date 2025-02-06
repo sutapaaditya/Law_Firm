@@ -78,6 +78,10 @@ li{
   list-style: none;
 }
 
+li::first-line{
+  color: #32312F;
+}
+
 .lines{
   margin-top: -2rem;
   padding: 2rem;

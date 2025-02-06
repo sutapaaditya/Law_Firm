@@ -66,21 +66,39 @@
 
 .card .card_template{
   padding: 2rem;
-  transition: 0.3s;
-  width: 34%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 24%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+.card .card_template:hover{
+  transition: 0.9s;
+}
+
+.card_template img{
+width: 100%;
+  margin: 0 auto;
+  border: 0.1rem solid black;
 }
 
 .card .card_title{
-   font-size: 1.8rem;
-    font-weight: 400;
-    color: blue;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    background-color: #f9e5c5;
-    padding: 1rem;
-    border: 0.5px solid brown;
-    border-radius: 9px;
-    flex: 0 0 auto;
-    align-self: flex-start;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card_testimonal{
+  color: blue;
+}
+
+.card_line{
+  border-top: 2px solid pink;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card_para{
+  text-align: center;
 }
