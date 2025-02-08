@@ -90,15 +90,22 @@ width: 100%;
 }
 
 .card_testimonal{
-  color: blue;
+  color: #161413;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  margin-top: 0.5rem;
 }
 
 .card_line{
-  border-top: 2px solid pink;
-  width: 100%;
-  margin: 0 auto;
+  border-top: 2px solid black;
+  width: 60%;
+  margin: 1rem auto;
 }
 
 .card_para{
   text-align: center;
+  margin-top: 1rem;
+  color: #eceae9;
+  font-family: "Rubic",sans-serif;
+  font-weight: 700;
 }
