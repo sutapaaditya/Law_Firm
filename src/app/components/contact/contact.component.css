@@ -33,7 +33,7 @@
   transform: translateX(-50%);
   width: 80%;
   height: 4px;
-  background: linear-gradient(to right, #2C7CB5, #184363);
+  background: linear-gradient(to right, #a2677c, #40262f);
 }
 
 .contact_info{
@@ -46,14 +46,26 @@
 .contact_item{
   padding: 2rem;
   background: rgba(255, 255, 255, 0.9);
-  color: #081621;
-  box-shadow: 0 8px 25px rgba(102, 21, 41, 0.1);
+  color: #4d2e38;
+  box-shadow: 0 8px 20px rgba(153, 92, 112, 0.8);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact_item h3{
+  font-size: 2.5rem;
+  text-decoration-line: underline;
+}
+
+.contact_item p{
+  margin-top: 1rem;
+  color: #7e4e5f;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
 }
 
 .contact_item:hover{
   transform: translateY(-0.5rem);
-  box-shadow: 0 12px 30px rgba(58, 143, 207, 0.5);
+  box-shadow: 10px 12px 15px rgba(153, 92, 112, 0.8);
 }
 
 .contact_form{

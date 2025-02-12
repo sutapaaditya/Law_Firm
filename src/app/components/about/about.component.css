@@ -15,8 +15,9 @@
 .about_left h1{
   margin: 3rem auto;
   text-transform: uppercase;
+  color: #331f26;
   text-align: center;
-  border-bottom: 3px solid moccasin;
+  border-bottom: 3px solid #d2dad8;
   font-weight: 800;
   max-width: 70%;
   font-size: 3.5rem;
@@ -24,11 +25,19 @@
   letter-spacing: 1px;
 }
 
+.line{
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 .about_text{
-  color: #dedede;
-  font-size: 1.9rem;
-  text-align: justify;
-  font-weight: 600;
+  color: #26171c;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Helvetica", sans-serif;
   word-spacing: 0.2rem;
   line-height: 2;
   padding: 0 1rem;
@@ -54,7 +63,6 @@
   position: relative;
   overflow: hidden;
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.19);
   transition: all 0.4s ease;
 }
 
@@ -107,7 +115,7 @@
 }
 
 .highlight_section h2{
-  color: white;
+  color: #1A0F13;
   font-size: 2.8rem;
   font-weight: 800;
   margin-bottom: 3rem;
@@ -127,7 +135,7 @@
 }
 
 .highlight_item{
-  background-color: white;
+  background-color: #FCF9EE;
   border-radius: 2rem;
   overflow: hidden;
   transition: all 0.4s ease;
@@ -172,18 +180,20 @@
 }
 
 .highlight_content h3{
-  color: navy;
+  color: #625558;
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
+  text-decoration-line: underline;
 }
 
 .highlight_content p{
-  color: burlywood;
-  font-size: 1.6rem;
+  color: #29282a;
+  font-size: 2rem;
   line-height: 1.7;
   font-weight: 600;
+  font-family: "Baskerville", sans-serif;
   text-align: center;
   padding: 0 1rem;
 }
@@ -203,4 +213,30 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 8vw);
   }
+
+.grid_item:nth-child(1){
+  grid-column: 1 / span 9;
+  grid-row: 1 / span 3;
+}
+
+.grid_item:nth-child(2){
+  grid-column: 10 / span 13;
+  grid-row: 1 / span 3;
+}
+
+.grid_item:nth-child(3){
+  grid-column: 2 / span 21;
+  grid-row: 4 / span 5;
+}
+
+.grid_item:nth-child(4){
+  grid-column: 7 / span 3;
+  grid-row: 6 / span 3;
+}
+
+.grid_item:nth-child(5){
+  grid-column: 4 / span 5;
+  grid-row: 6 / span 3;
+}
+
 }

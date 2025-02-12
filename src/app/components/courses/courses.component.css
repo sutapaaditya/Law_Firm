@@ -89,10 +89,10 @@
 }
 
 .details-btn{
-  background-color: #8E6D67;
+  background-color: #2c252d;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ddd2d0;
+  color: #cdcdcb;
   border: none;
   padding: 0.8rem 1.5rem;
   border-radius: 0.5rem;
@@ -105,4 +105,13 @@
 
 .line{
   border-top: 1.5px solid rgba(227, 224, 222, 0.25);
+}
+
+@media(max-width:768px){
+.course_grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
 }

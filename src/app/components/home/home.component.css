@@ -75,7 +75,7 @@
 }
 
 .card .card_template:hover{
-  transform: translateY(-0.7rem);
+  transform: translateY(-0.6rem);
   cursor: pointer;
 }
 

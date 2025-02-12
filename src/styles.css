@@ -35,3 +35,9 @@ body {
   background-color: #6e645e;
   width: 100%;
 }
+
+@media(max-width:768px){
+.container{
+ width: 100%;
+}
+}
