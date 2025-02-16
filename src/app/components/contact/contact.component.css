@@ -13,25 +13,28 @@
   flex: 1;
   padding: 3rem;
   text-align: center;
+  margin-top: -10rem;
 }
 
-.contact-card-left h1{
+.card_write{
+  text-align: center;
+  margin-left: 50rem;
   color:#fff;
   font-size: 3.5rem;
   font-weight: 800;
-  margin-bottom: 3rem;
+  margin-top: 8rem;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
 }
 
-.contact-card-left h1::after{
+.card_write::after{
   content: '';
   position: absolute;
   bottom: -1rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 60%;
   height: 4px;
   background: linear-gradient(to right, #a2677c, #40262f);
 }
@@ -46,7 +49,7 @@
 .contact_item{
   padding: 2rem;
   background: rgba(255, 255, 255, 0.9);
-  color: #4d2e38;
+  color: #550527;
   box-shadow: 0 8px 20px rgba(153, 92, 112, 0.8);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -54,6 +57,8 @@
 .contact_item h3{
   font-size: 2.5rem;
   text-decoration-line: underline;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 
 .contact_item p{
@@ -71,7 +76,7 @@
 .contact_form{
   background-color: rgba(255, 255, 255, 0.95);
   padding: 3rem;
-  box-shadow: 0 15px 35px rgba(58, 143, 207, 1.55);
+  box-shadow: 0 15px 35px rgba(153, 92, 112, 1.55);
 }
 
 .form_group{
@@ -82,31 +87,33 @@
 .form_group textarea{
   width: 100%;
   padding: 1.7rem;
-  border: 2px solid #9CC7E7;
+  border: 2px solid #8E6767;
   background-color: rgba(255, 255, 255, 0.95);
   font-size: 1.8rem;
-  color: #081621;
+  color: #4d0423;
   transition: all 0.4s ease;
 }
 
 .form_group input:focus,
 .form_group textarea:focus{
   outline: none;
-  border-color: #efe9f4;
-  box-shadow: 0 0 15px rgba(58, 143, 255, 0.95);
+  border-color: #765656;
+  box-shadow:  10px 10px 15px rgba(169, 137, 137, 0.95);
 }
 
 .form_group #name,
 .form_group #mess,
 .form_group #email{
-  color: #081621;
+  color: #4d0423;
   text-transform: uppercase;
   font-weight: 800;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
 }
 
 .form_group input::placeholder,
 .form_group textarea::placeholder{
-  color: #081621;
+  color: #6E0732;
   font-size: 1.7rem;
 }
 

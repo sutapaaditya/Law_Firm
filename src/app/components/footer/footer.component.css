@@ -52,16 +52,17 @@
 .footer_section ul li{
   margin-bottom: 1rem;
   gap: 1rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
-  color: #FFF;
+  color: #020f27;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 .footer_section ul li a{
-  color: #fff;
+  color: #020f27;
   text-decoration: none;
   transition:  color 0.3s ease;
 }
@@ -76,13 +77,13 @@
   flex: 1;
   padding: 1rem;
   font-size: 1.6rem;
-  border: 2px solid #5BA3D7;
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  border: 2px solid #331515;
+  background: rgba(255, 255, 255, 0.25);
+  color: #4c0909;
 }
 
 .newsletter input::placeholder{
-  color: rgba(255, 255, 255, 0.6);
+  color: #86093D;
 }
 
 .newsletter input:focus{
@@ -92,10 +93,13 @@
 .newsletter button{
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  color: #000;
+  color: #471010;
+  background-color: #8e3a3a;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
   border: none;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   transition: all 0.3s ease;
 }
 
