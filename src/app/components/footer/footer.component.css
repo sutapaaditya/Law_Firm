@@ -26,16 +26,23 @@
 }
 
 .write{
-  margin-left: 2rem;
+  text-align: center;
 }
 
-.footer_section p{
-  font-size: 1.8rem;
+.law{
+  font-size: 2rem;
   font-weight: 600;
+  font-family: "Kanit", sans-serif;
   word-spacing: 0.2rem;
   color: #211e1c;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.law::first-letter{
+
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .social_links{
@@ -145,6 +152,7 @@
 
   .newsletter button {
     width: 100%;
+    color: #fff;
   }
 
   .footer_section {
