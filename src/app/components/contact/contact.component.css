@@ -154,16 +154,22 @@ button[type="submit"]:hover{
     padding: 1rem;
   }
 
+  .card_write{
+    /* top right bottom left*/
+    margin: 3rem 0 4rem 8rem;
+  }
+
   .contact-card-left,
   .contact-card-right{
     width: 100%;
     padding: 2rem;
   }
 
-  .contact-card-left h1,
   .contact_item h3,
   .contact_item p{
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
   }
 
   .form_group input,
