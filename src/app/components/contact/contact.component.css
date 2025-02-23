@@ -145,7 +145,24 @@ button[type="submit"]:hover{
 .line{
   border-top: 2px solid rgba(227, 224, 222, 0.55);
 }
+ /* 2nd page code when everything is done then it should be leave here  */
+.profile-picture{
+  width: 20px;
+  height: 20px;
+}
 
+.form-container{
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 0.1rem;
+  padding: 2rem;
+  margin: 0.1rem;
+  width: 80%;
+  max-width: 60rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media(max-width: 768px){
   .contact{
     flex-direction: column;
