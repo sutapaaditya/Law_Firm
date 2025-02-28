@@ -69,16 +69,31 @@
       <label for="name">Last Name</label>
       <input type="text" placeholder="Last Name">
 
-        <input type="date">
+      <input type="date">
       <br>
-
-      <div class="gender_info">
-        <label><input type="radio" name="gen" value="female">Female</label>
-
-        <label><input type="radio" name="gen" value="male">Male</label>
+      <div class="form-group">
+        <select id="gender" class="custom-select">
+          <option value="" disabled selected>select one</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
       </div>
     </form>
   </div>
+  <!-- form_container end -->
 
+  <div class="form_contain">
+    <div class="form_img_contain">
+      <img src="../../../assets/icon_svg/graduation-cap-solid.svg" alt="">
+    </div>
+
+    <form>
+      <label for="name">Class</label>
+      <input type="text" placeholder="class">
+      <br>
+    </form>
+  </div>
+  <!-- form_contain end -->
 </div>
-
+<!-- slide_container end -->
