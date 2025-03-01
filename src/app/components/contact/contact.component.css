@@ -236,6 +236,8 @@ input[type="date"]{
 
 .form_container input::placeholder, .form_contain input::placeholder{
   color: burlywood;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .form_container label , .form_contain label{
@@ -248,6 +250,8 @@ input[type="date"]{
 
 .form_container input:focus, .form_contain input:focus {
   border-bottom: 2px solid #cc0033;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
 .form_img_contain{
@@ -256,3 +260,28 @@ input[type="date"]{
   margin: 1rem 11rem;
 }
 
+.program-list {
+  list-style: none;
+  padding: 0;
+}
+
+.program-list li {
+  margin-bottom: 10px;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.program-list li::before {
+  content: "○"; /* Default circle bullet */
+  margin-right: 10px;
+  color: #ccc; /* Light grey color */
+}
+
+.program-list li.selected::before {
+  content: "●"; /* Filled circle bullet */
+  color: purple; /* Purple color for selected */
+}
+
+.program-list li.selected {
+  font-weight: bold; /* Bold text for selected item */
+}
