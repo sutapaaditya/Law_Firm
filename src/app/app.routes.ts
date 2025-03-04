@@ -5,6 +5,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { DetailsComponent } from './components/details/details.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 export const routes: Routes = [
   {
@@ -30,6 +31,11 @@ export const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+
+  {
+    path: 'contacts',
+    component: ContactsComponent
   },
 
   {
