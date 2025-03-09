@@ -27,6 +27,11 @@ input[type="date"]{
   border-radius: 4px;
 }
 
+#d_name{
+  margin-left: -23rem;
+  margin-top: 10rem;
+}
+
 /* Styling the form container */
 .form-group {
   color: #333;
@@ -43,13 +48,14 @@ input[type="date"]{
   padding: 8px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background: #d0c4c4 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path fill="gray" d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
-  background-size: 14px;
+  background:  #d0c4c4 ;
+  text-align: center;
   font-size: 2rem;
   color: #3D3A3A;
   cursor: pointer;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
+  margin-top: 2rem;
 }
 
 /* Hover and focus effects */
@@ -144,7 +150,7 @@ input[type="date"]{
 }
 
 .dropdown-content {
- display: none;
+  display: none;
   /* if you wanna see link then write - display: block; or select 148 line and closed */
   position: absolute;
   background: #f9f9f9;
@@ -262,7 +268,7 @@ input[type="date"]{
   margin: 0 5px;
 }
 
-.back-button {
+.back-btn {
   text-decoration: none;
 }
 
@@ -271,6 +277,7 @@ input[type="date"]{
     display: grid;
     flex-direction: column;
     gap: 2rem;
+    margin: 2rem auto;
   }
 
   .form_container,
@@ -278,5 +285,29 @@ input[type="date"]{
   .card_contact{
     width: 80%;
     margin: 0 4rem;
+    border-radius: 2rem;
   }
+
+  .back-btn{
+    margin: 0 5.1rem;
+  }
+
+  .form_contain h2{
+    text-decoration: underline;
+    margin-bottom: 2rem;
+  }
+
+  #d_name{
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-left: -23rem;
+  }
+
+  .custom-select{
+    margin-top: 2rem;
+    width: 70%;
+    background: #d0c4c4 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="38" height="38"><path fill="gray" d="M7 10l5 5 5-5z"/></svg>') no-repeat right 0.8rem center;
+
+  }
+
 }

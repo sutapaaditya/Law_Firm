@@ -178,7 +178,7 @@ button[type="submit"]:hover{
 }
 
 @media(max-width:768px){
-.contact{
+  .contact{
     display: grid;
     flex-direction: column;
   }
