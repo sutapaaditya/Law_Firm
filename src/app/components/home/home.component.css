@@ -246,47 +246,6 @@
   margin-top: 10px;
 }
 
-.accordion{
-  width: 60rem;
-  border: 1px solid brown;
-  padding: 2rem;
-}
-
-.question{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: "Rubik", sans-serif;
-}
-
-.question::after{
-  content: '>';
-  color: #000;
-  transform: rotate(90deg);
-  transition: transform 0.4s ease;
-}
-
-.answer{
-  line-height: 1.6;
-  padding-left: 2rem;
-  display: block;
-}
-
-.acc-section .question::after{
-  transform: rotate(-90deg);
-}
-
-.acc-section:target .answer:target{
-  display: block;
-}
-
-.acc-section {
-  display: block;
-}
-
 @media(max-width:768px){
   .card{
     display: grid;
