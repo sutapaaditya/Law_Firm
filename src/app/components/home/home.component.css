@@ -362,24 +362,37 @@
   }
 
   .testimonial-card {
-    background-color: #644740;
+    background-color: #cc9a8d;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     padding: 20px;
     text-align: left;
     position: relative;
-    background-image: linear-gradient(to bottom, #fff 90%, #f9f0f0 10%);
   }
 
   .testimonial-card img {
-    width: 60px;
-    height: 60px;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
   }
 
+  .quote-line{
+    margin-left: -1rem;
+    width: 70%;
+  }
+
+  .quote{
+    margin: 0 auto;
+    word-spacing: 1rem;
+  }
+
+  .date{
+    border-top: 1px solid #734438;
+    padding-top: 1rem;
+  }
   .card_container {
     display: grid;
     flex-direction: column;
