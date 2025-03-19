@@ -1,36 +1,51 @@
 <header>
   <nav class="navbar">
       <div class="logos">
+        <img src="../../../assets/icon_svg/law-scale.svg" alt="Law Firm Logo" class="law-logo">
         <a routerLink="/">LAW FIRM</a>
       </div>
-    <div class="hamburger" (click)="toggleMenu()" [class.active]="isMenuOpen">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
+    <div class="hamburger" (click)="toggleMenu()">
+      <div class="icon-container">
+        <div class="hamburger-icon" [class.hidden]="isMenuOpen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="cross-icon" [class.hidden]="!isMenuOpen">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </div>
     <div class="nav-links" [class.active]="isMenuOpen">
-      <img src="../../../assets/icon_svg/home-svgrepo-com.svg" alt="">
-      <a routerLink="/"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}"
-        (click)="closeMenu()">Home</a>
+      <div class="nav-item">
+        <img src="../../../assets/icon_svg/home-svgrepo-com.svg" alt="Home">
+        <a routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}"
+          (click)="closeMenu()">Home</a>
+      </div>
 
-      <img src="../../../assets/icon_svg/course-svgrepo-com.svg" alt="">
-      <a routerLink="/courses"
-        routerLinkActive="active"
-        (click)="closeMenu()">Courses</a>
+      <div class="nav-item">
+        <img src="../../../assets/icon_svg/course-svgrepo-com.svg" alt="Courses">
+        <a routerLink="/courses"
+          routerLinkActive="active"
+          (click)="closeMenu()">Courses</a>
+      </div>
 
+      <div class="nav-item">
+        <img src="../../../assets/icon_svg/book-mark-svgrepo-com.svg" alt="About">
+        <a routerLink="/about"
+          routerLinkActive="active"
+          (click)="closeMenu()">About</a>
+      </div>
 
-      <img src="../../../assets/icon_svg/book-mark-svgrepo-com.svg" alt="">
-      <a routerLink="/about"
-        routerLinkActive="active"
-        (click)="closeMenu()">About</a>
-
-      <img src="../../../assets/icon_svg/contact-book-svgrepo-com.svg" alt="">
-      <a routerLink="/contact"
-        routerLinkActive="active"
-        (click)="closeMenu()">Contact</a>
+      <div class="nav-item">
+        <img src="../../../assets/icon_svg/contact-book-svgrepo-com.svg" alt="Contact">
+        <a routerLink="/contact"
+          routerLinkActive="active"
+          (click)="closeMenu()">Contact</a>
+      </div>
     </div>
   </nav>
 </header>
-
